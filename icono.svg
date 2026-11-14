@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cesta">
+  <!-- El cuerpo: dos trazos que se cruzan, como una cesta tejida. -->
+  <g fill="none" stroke="#2f6f4e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- el asa -->
+    <path d="M22 22c0-6 4.5-10 10-10s10 4 10 10"/>
+    <!-- la boca -->
+    <path d="M13 22h38"/>
+    <!-- el cuerpo, que se estrecha -->
+    <path d="M17 22l4 22a6 6 0 0 0 6 5h10a6 6 0 0 0 6-5l4-22"/>
+    <!-- el tejido: dos trazos cruzados dentro -->
+    <path d="M23 29c5 4 13 4 18 0"/>
+    <path d="M25 38c4 3 10 3 14 0"/>
+  </g>
+  <!-- el brinco: un punto de acento, el «hilo» que remata -->
+  <circle cx="32" cy="17" r="2.6" fill="#c2703a"/>
+</svg>
