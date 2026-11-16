@@ -1,0 +1,1 @@
+import{j as a,V as r,L as s}from"./index-DnyWBg1G.js";function n({texto:e}){return a.jsx(r,{titulo:"Entra para ver esto",comoPagina:!0,className:"grow",children:a.jsxs("p",{children:[e," Se entra desde ",a.jsx(s,{to:"/cesta",className:"underline",children:"la cesta"}),"."]})})}export{n as E};
