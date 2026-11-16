@@ -1,7 +1,7 @@
 {
   "name": "Avío",
   "short_name": "Avío",
-  "description": "La compra de la semana, bien hilada: que comprar, donde, cuanto cuesta y que se cocina con ello.",
+  "description": "La compra de la semana, bien hilada: qué comprar, dónde está más barato, cuánto cuesta y qué se cocina con ello.",
   "lang": "es",
   "dir": "ltr",
   "start_url": ".",
