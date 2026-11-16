@@ -21,10 +21,16 @@
     <!-- Nada de scripts ni estilos en linea: la CSP que pone Caddy es
          script-src 'self' y style-src 'self', asi que un <script> incrustado no
          se ejecutaria. Vite saca el JS y el CSS a /assets, que si entran. -->
-    <script type="module" crossorigin src="/cesta-demo/assets/index-npJ1k4p-.js"></script>
-    <link rel="stylesheet" crossorigin href="/cesta-demo/assets/index-CPZsvu-6.css">
+    <script type="module" crossorigin src="/cesta-demo/assets/index-DTfr6sS8.js"></script>
+    <link rel="stylesheet" crossorigin href="/cesta-demo/assets/index-D-Z6Ec9A.css">
   </head>
   <body class="bg-marfil text-tinta">
-    <div id="raiz"></div>
+    <!-- *Mientras llega el trozo de la API de demo, algo que leer. React sustituye este
+         contenido al montar; sin él, la primera pantalla es un hueco blanco.* -->
+    <div id="raiz">
+      <div class="flex min-h-screen items-center justify-center bg-marfil px-6 text-center">
+        <p class="text-cuerpo text-secundaria">Abriendo Avío…</p>
+      </div>
+    </div>
   </body>
 </html>
